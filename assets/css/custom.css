@@ -1,0 +1,242 @@
+.pt-7{
+  padding-top: 7rem !important;
+}
+.pb-7{
+  padding-bottom: 7rem !important
+}
+.mt-0{
+  margin-top: 0 !important;
+}
+.m-7{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.mtb-5{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.mb-1 {
+	margin-bottom: 1rem !important;
+}
+.mb-3 {
+	margin-bottom: 3rem !important;
+}
+.banner_text {
+	text-shadow: 2px 2px 3px black;
+}
+.subhead{
+  margin-bottom: 3rem;
+}
+.subhead-size{
+  font-size: 1.5rem;
+}
+.center{
+  text-align: center;
+}
+.justify{
+  text-align: justify;
+}
+.left{
+  text-align: left;
+}
+.dark-color{
+  color:#5f65a3;
+}
+.about-listing li{
+  line-height: 1.2;
+}
+
+/*------- Navbar ------*/
+#header.header-horizontal .module-object {
+	float: left;
+	cursor: pointer;
+	padding: 0px;
+	width: 300px;
+	border-left: none;
+	background-color: white;
+	overflow: hidden;
+}
+#header.header-horizontal .module-nav {
+	float: right;
+}
+#header.header-horizontal {
+	padding-right: 1.5rem;
+}
+#header.header-horizontal .module-object img{
+    margin-bottom:5px;
+}
+/*------Footer -----------*/
+.footer{
+  margin: 0px;
+}
+/*------about us ---------*/
+.listing-row{
+  width:90%;
+  margin: auto;
+}
+.about-listing {
+	list-style: none;
+	margin: 0;
+}
+.about-listing li {
+	padding-bottom: 40px;
+}
+.list_image {
+    display: inline-block;
+    width: 85px;
+    margin-right: 15px;
+}
+.list_image img {
+    color: white;
+    width: 100%;
+}
+.list_text {
+    display: inline-block;
+    width: calc(100% - 105px);
+    vertical-align: middle;
+    color: #7478b1;
+}
+
+.img-thumbnail, .rounded {
+	text-align: center;
+}
+/*------ Projects ---------*/
+.object-details{
+  min-height: 120px;
+}
+/*------Contact us ---------*/
+#map_wrapper {
+    height: 400px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+}
+.color{
+  color:#7478b1 !important;
+  cursor: pointer;
+}
+
+
+/*------- Hamilton ------*/
+/* only equalize height on wider screens */
+@media (min-width: 992px) {
+    .row.equal > div {
+        display: table-cell;
+        float: none;
+    }
+		.equal{
+		    display: table-row;
+		    table-layout: fixed;
+		}
+    .stratup_wrap {
+  	top: 50%;
+  	transform: translateY(-50%);
+  	position: absolute;
+  	padding-right: 30px;
+  	padding-left: 30PX;
+  	text-align: justify;
+  }
+    .col-pad{
+      padding: 0;
+    }
+    .project_light {
+    	border-bottom: 3px solid #7478b1;
+    	line-height: 81px;
+      }
+
+}
+.pad-right {
+	border-right: 1px solid #ddd;
+}
+.right-list{
+  padding-top: 48px;
+}
+.more{
+  width: 90%;
+  margin: auto;
+}
+.more .title {
+	padding-left: 15px;
+	font-size: 1.5rem;
+	color: #5f65a3;
+	font-weight: bold;
+}
+.left-list, .right-list {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+/* -------- MOBILE -------*/
+
+@media (max-width: 768px) {
+
+    #header.header-horizontal .module-object {
+    	width: 250px;
+    }
+    #details .equal{
+      padding-bottom: 25px;
+      padding-top : 25px;
+      border-bottom: 1px solid #eee;
+    }
+    #details .container-fluid:first-child .equal{
+      padding-top: 0;
+    }
+    #details .container-fluid:last-child .equal{
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .col-sm-6{
+      flex: none;
+      max-width: 100%;
+    }
+}
+@media (max-width: 992px){
+  #header.header-horizontal .module-nav-toggle {
+    float: right;
+  }
+#header.header-horizontal .module-nav {
+  padding-left: 1rem;
+  padding-bottom: 0rem;
+  color: white;
+}
+.nav-main-horizontal {
+	font-size: 1.2rem;
+}
+#header.header-horizontal .module-nav a {
+	line-height: 2.5rem;
+}
+}
+@media (max-width: 992px) and (min-width: 575px) {
+    .object-details {
+        min-height: 200px;
+    }
+}
+#overlay {
+    position: absolute;
+    z-index: 1000;
+    background: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#overlay img{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+}
+.object-single{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+#project-slider .slick-prev{
+    left:0 !important;
+}
+#project-slider .slick-next{
+    right:0 !important;
+}
