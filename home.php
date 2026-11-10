@@ -30,7 +30,7 @@
                 <h1 Class="banner_text">Responsible, Courteous & Professional Staffs Attending to Your Every Needs</h1>
             </div>
         </div>
-        <!-- Slide -->
+        <!-- Slide  - --->
         <div class="slide">
             <div class="slide-bg bg-image-holder bg-image-fixed">
                 <img src="images/home/atrium_health_slider_senior_workout.jpg" alt="Atrium Health Workout">
